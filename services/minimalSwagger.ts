@@ -25,7 +25,7 @@ export class MinimalSwagger {
    * Build the documentation JSON
    * @param info
    */
-  public buildDocs(info: ISwaggerDoc) {
+  public generate(info: ISwaggerDoc) {
     const layers = this.server._router.stack as ILayer[];
     const docs = {
       tags: [],

@@ -15,5 +15,5 @@ const swagger = new MinimalSwagger(app);
 await app.listen(8000);
 
 // the docs should be built after starting the server
-swagger.buildDocs(swaggerOptions);
+swagger.generate(swaggerOptions);
 ```
