@@ -1,0 +1,31 @@
+{
+  "name": "minimal-swagger-docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinDrost/minimal-swagger-docs.git"
+  },
+  "author": "MartinDrost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinDrost/minimal-swagger-docs/issues"
+  },
+  "homepage": "https://github.com/MartinDrost/minimal-swagger-docs#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "ts-loader": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "tsconfig-paths": "^3.1.1",
+    "tslint": "5.3.2"
+  }
+}
