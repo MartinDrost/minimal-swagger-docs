@@ -1,10 +1,8 @@
-# Minimal Swagger Docs
-
-## Description
+### Description
 
 This package is meant for generating minimal Swagger documentation without having to configure anything. The package uses the route stack of Express to generate a Swagger 2.0 JSON file without descriptions, bodies or responses. The JSON file is then served to ${baseUrl}/api-docs which can be used to fill Swagger-ui or Postman.
 
-## Example usage
+### Example usage
 
 ```javascript
 import { MinimalSwagger } from "minimal-swagger-docs";
