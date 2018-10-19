@@ -55,7 +55,10 @@ export class MinimalSwagger {
       docPath[method] = {
         summary: this.generateName(path, method),
         description: "",
-        parameters: params,
+        parameters: params.map(p => ({
+          name: p.replace(":", ""),
+          required: true
+        })),
         responses: {},
         tags: [tag],
         security: {},

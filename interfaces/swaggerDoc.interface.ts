@@ -25,7 +25,7 @@ export interface ISwaggerDoc {
       [method: string]: {
         summary: string;
         description: string;
-        parameters: string[];
+        parameters: any[];
         responses: any;
         tags: string[];
         security: any;
